@@ -26,3 +26,44 @@ body {
     font-size: 18px;
     margin-right: 120px;
 }
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    color: #fff;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 120px;
+    margin-bottom: 40px;
+}
+
+.hero-text {
+    font-size: 48px;
+    margin-bottom: 0;
+}
+
+.sign-up-button {
+    background-color: #3882F6;
+    border-color: #3882F6;
+    color: #fff;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 120px;
+    width: 400px;
+    height: 200px;
+    background-color: gray;
+}
+
+
