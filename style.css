@@ -66,4 +66,37 @@ body {
     background-color: gray;
 }
 
+.info-title {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.info-boxes {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid yellow;
+    align-items: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid blue;
+    border-radius: 10%;
+}
+
+.box-text {
+    font-size: 12px;
+    width: 100px;
+}
+
 
