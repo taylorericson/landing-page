@@ -83,7 +83,6 @@ body {
 .info-boxes {
     display: flex;
     flex-direction: column;
-    border: 2px solid yellow;
     align-items: center;
 }
 
@@ -98,5 +97,26 @@ body {
     font-size: 12px;
     width: 100px;
 }
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+
+.quote-block {
+    width: 600px;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-weight: 800;
+}
+
+
 
 
